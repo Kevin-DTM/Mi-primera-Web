@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+
+header{
+    background-color: rgb(245 245 245);
+    position: fixed;
+    width: 100%;
+
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: rgb(43, 128, 226);
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+header .container{    
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+header nav{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 3px 12px;
+}
+header a:hover{
+    color: rgb(43, 128, 226);
+    rgb(105, 33, 172)
+}
+.tittle-colour{color:rgb(78, 160, 255);}
+#titulo{
+    align-items:center;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)),
+    url(https://img2.wallspic.com/crops/8/5/3/8/2/128358/128358-juego_de_supervivencia-3840x2160.jpg);
+    height: 70vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px;
+}
+
+button{
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(43, 128, 226);
+    padding: 10px 30px;
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+
+    background-color: rgb(34, 104, 184);
+
+}
+
+#porque-dtmlauncher .container{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.colour{color:rgb(43, 128, 226);}
+
+#porque-dtmlauncher .container h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgb(0, 0, 0,0.2);
+    
+}
+.p-bold{font-weight: bold;}
+
+#porque-dtmlauncher .container p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#plataformas {
+
+    background-color:  rgb(41, 119, 207);
+    box-shadow: 2px 2px 10px rgb(36, 103, 180);
+    border: 1px solid rgb(100, 173, 255);
+    padding-bottom: 98px ;
+    padding-top: 28px ;
+    
+}
+
+#plataformas .container{
+
+    text-align: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#plataformas .container h2{
+
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 15px rgb(0, 0, 0,0.2);
+
+}
+
+#plataformas .tipos-plataformas h2{
+
+    color: white;
+    font-weight: bold;
+
+}
+
+#plataformas a{
+text-decoration: none;
+}
+
+#plataformas .windows{
+
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)),
+    url(https://i.blogs.es/430961/windowsdiez/1366_521.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+    margin-bottom: 20px;
+
+}
+
+#plataformas .linux{
+
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)),
+    url(https://www.informatica.us.es/images/icagenda/agenda/Linux.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+    margin-bottom: 20px;
+
+}
+
+#plataformas .android{
+
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)),
+    url(https://lh3.googleusercontent.com/GTmuiIZrppouc6hhdWiocybtRx1Tpbl52eYw4l-nAqHtHd4BpSMEqe-vGv7ZFiaHhG_l4v2m5Fdhapxw9aFLf28ErztHEv5WYIz5fA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+
+}
+
+#listoparajugar{
+
+    background-color: rgb(36, 103, 180);
+    height: 500px;
+
+}
+
+#listoparajugar .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center center;
+}
+
+
+#listoparajugar .container h2{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 95px;
+    color: white;
+}
+
+#listoparajugar a{text-decoration: none;}
+
+@media (min-width: 720px){
+
+    header .logo{
+        padding-left: 0;
+        
+
+    }
+
+    header nav{
+        
+        flex-direction: row;
+        display: flex;
+        padding-bottom: 0px;
+    }
+    
+    header .container{
+
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+       
+    }
+
+     #plataformas{
+        padding-top: 40px;
+        padding-bottom: 110px;
+        
+    }
+
+    #plataformas .container h2{
+
+        font-size: 60px;
+    
+    }
+
+    #plataformas .html{
+
+        margin-bottom: 80px;
+    
+    }
+    
+    #plataformas .phyton{
+    
+        margin-bottom: 80px;
+    
+    }
+
+    #listoparajugar .container h2{
+        padding-top: 140px;
+    }
+    
+@media (max-width: 513px){
+#listoparajugar .container h2{
+    font-size: 70px;
+    padding-top: 65px;
+}
+}
+
+@media (min-width: 890px){
+
+#porque-dtmlauncher .text-container{
+    padding: 0px 50px;
+    justify-content: center;
+    text-align: initial;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    }
+
+    #porque-dtmlauncher .img-container{
+        background-image: url(https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/blog/2022-pug-minecraft.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 600px;
+        background-position: center center;
+     
+     }
+}
