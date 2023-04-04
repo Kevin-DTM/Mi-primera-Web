@@ -162,8 +162,23 @@ text-decoration: none;
     border: 1px solid rgb(0, 0, 0,0.5);
     box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
     margin-bottom: 20px;
+    transition: all 500ms ease;
+    
 
 }
+
+#plataformas .windows:hover{
+    transform: scale(1.07);
+}
+
+#plataformas .linux:hover{
+    transform: scale(1.07);
+}
+
+#plataformas .android:hover{
+    transform: scale(1.07);
+}
+
 
 #plataformas .linux{
 
@@ -176,6 +191,7 @@ text-decoration: none;
     border: 1px solid rgb(0, 0, 0,0.5);
     box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
     margin-bottom: 20px;
+    transition: all 500ms ease;
 
 }
 
@@ -189,6 +205,7 @@ text-decoration: none;
     border-radius: 15px;
     border: 1px solid rgb(0, 0, 0,0.5);
     box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+    transition: all 500ms ease;
 
 }
 
@@ -204,8 +221,10 @@ text-decoration: none;
     justify-content: center;
     flex-direction: row;
     align-items: center center;
+    transition: all 500ms ease;
 }
 
+#listoparajugar .container:hover{transform: scale(1.05);}
 
 #listoparajugar .container h2{
 
